@@ -27,4 +27,15 @@ target<-data.frame(ARM=88, GRIP=94)
 predict(simp,target,interval=c("prediction"))
 ```
 
+```{r}
+newGRIP <- lm(SIMS ~ ARM, data = data)
+plot(SIMS~ GRIP,data=data)
+abline(newGRIP)
+summary.lm(newGRIP)
+```
+
+```{r}
+predict(newGRIP,target,interval=c("prediction"))
+```
+
 

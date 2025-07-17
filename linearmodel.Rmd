@@ -49,9 +49,9 @@ summary.lm(ARMGRIP_2)
 predict(ARMGRIP_2,target,interval=c("prediction"))
 ```
 
-Now what were going to do is compare our three models using the ANOVA command. First were going to compare the model which is halfGRIP with the model simp
+Now what were going to do is compare our three models using the ANOVA command. First were going to compare the model which is ARMGRIP_2 with the model simp
 
 ```{r}
-
+anova(simp,GRIP)
 ```
 

@@ -52,6 +52,6 @@ predict(ARMGRIP_2,target,interval=c("prediction"))
 Now what were going to do is compare our three models using the ANOVA command. First were going to compare the model which is ARMGRIP_2 with the model simp
 
 ```{r}
-anova(simp,GRIP)
+anova(simp,ARMGRIP_2)
 ```
 

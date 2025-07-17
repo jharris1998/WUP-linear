@@ -66,3 +66,5 @@ What this shows, is that the sum of the errors for the model with just GRIP adds
 ```{r}
 anova(newGRIP,simp)
 ```
+
+While we do not get a p-value from anova since the model arent nesting, we see that model for ARM has a smaller sum of errors than the model for GRIP. 

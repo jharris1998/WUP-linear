@@ -60,3 +60,5 @@ Basically this is telling me, is that the errors that occur from the model with 
 ```{r}
 anova(newGRIP,ARMGRIP_2)
 ```
+
+What this shows, is that the sum of the errors for the model with just GRIP adds up to 243.07. The sum of the errors for the model with both ARM and GRIP  add up to 188.43, the difference is greater than before being 54.64. 

@@ -1,6 +1,6 @@
 ---
-title: "Physical"
-name: "Jarrod Harris"
+title: "Linear Model with prediction"
+name: "Jarrod Harris" 
 date: "Summer 2025"
 output: html_document
 ---

@@ -56,3 +56,7 @@ anova(simp,ARMGRIP_2)
 ```
 
 Basically this is telling me, is that the errors that occur from the model with just ARM in it added up to 217.88. The errors in the model with both ARM and GRIP added up to 188.43 showing that there is less errors in the model with both elements rather than just ARM. 
+
+```{r}
+anova(newGRIP,ARMGRIP_2)
+```
